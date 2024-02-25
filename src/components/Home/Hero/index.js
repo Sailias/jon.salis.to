@@ -3,6 +3,8 @@ import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 const Hero = ({ expanded }) => {
+  const currentYear = new Date().getFullYear()
+
   return (
     <section className={ `Hero ${ expanded ? "expanded" : "" }` }>
       <div className="columns">
@@ -12,11 +14,14 @@ const Hero = ({ expanded }) => {
           </h1>
 
           <h2 className="Hero__subtitle">
-            Chief Technology Officer, full-stack developer with 15 years of experience
+            Chief Technology Officer, full-stack developer, Team Lead with { currentYear - 2005 } years of experience
           </h2>
 
           <h2 className="Hero__subtitle">
-            14 years of Rails experience, 6 years of Elixir experience, 5 years of React experience.
+            { currentYear - 2008 } years of Rails;&nbsp;
+            { currentYear - 2017 } years of Elixir;&nbsp;
+            { currentYear - 2015 } years of React;&nbsp;
+            { currentYear - 2019 } years of Python;&nbsp;
           </h2>
 
           <div className="Hero__contact">

@@ -12,6 +12,26 @@ const WorkHistory = ({ expanded }) => {
       <div className="WorkHistory__item">
         <h4 className="WorkHistory__company">
           <a href="https://www.voxpoplabs.com" target="_blank">
+            Bus Patrol Inc
+          </a>
+          {
+            expanded && 
+              <small className="WorkHistory__link-content">
+                { `https://buspatrol.com/` }
+              </small>
+          }
+        </h4>
+        <h5 className="WorkHistory__title">
+          Sr. Full Stack Development Team Lead
+        </h5>
+        <p className="WorkHistory__duration">
+          2022 - present
+        </p>
+      </div>
+
+      <div className="WorkHistory__item">
+        <h4 className="WorkHistory__company">
+          <a href="https://www.voxpoplabs.com" target="_blank">
             Vox Pop Labs
           </a>
           {
@@ -25,7 +45,7 @@ const WorkHistory = ({ expanded }) => {
           Chief Technology Officer / Technical Lead
         </h5>
         <p className="WorkHistory__duration">
-          2016 - present
+          2016 - 2022
         </p>
       </div>
 
