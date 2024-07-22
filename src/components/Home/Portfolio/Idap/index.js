@@ -6,13 +6,13 @@ import { create } from '@lottiefiles/lottie-interactivity';
 // Constants
 import animationData from './animationData';
 
-const Idap = ({}) => {
+const Idap = ({expanded}) => {
   const rootRef = useRef(null)
   const [lottiePlayer, setLottiePlayer] = useState(null)
 
   return (
     <div className="Idap PortfolioItem" ref={ rootRef }>
-      <div className="PortfolioItem__image-holder">
+      { !expanded && <div className="PortfolioItem__image-holder">
         <Player
           lottieRef={(instance) => {
             setLottiePlayer(instance)
@@ -37,7 +37,7 @@ const Idap = ({}) => {
           controls={ false }
           src={ animationData }
         />
-      </div>
+      </div> }
       <div className="PortfolioItem__content">
         <h4 className="PortfolioItem__content-title">
           Decision platform

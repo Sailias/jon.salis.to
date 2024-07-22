@@ -5,17 +5,23 @@
 
 .Hero__title {
   font-family: NotoSerif;
+  
+  small {
+    font-size: 16px;
+  }
 
   @include desktop {
     font-size: 76px;
-  } 
+  }
 
   @include touch {
     font-size: 46px;
-  } 
+  }
 }
 
 .Hero__subtitle {
+  font-weight: bold;
+
   @include desktop {
     font-size: 24px;
     margin-top: 25px;
@@ -25,6 +31,19 @@
     font-size: 18px;
     margin-top: 25px;
   }
+
+  ul {
+    list-style: disc;
+    margin-left: 25px;
+    margin-top: 10px;
+
+    li {
+      font-size: 16px;
+      font-weight: normal;
+    }
+  }
+
+
 }
 
 .Hero__contact {
@@ -35,6 +54,8 @@
     font-size: 28px;
     margin-right: 25px;
   }
+
+  
 }
 
 .Hero__link-content {
@@ -42,16 +63,30 @@
 }
 
 .Hero.expanded {
+  page-break-after: always;
+  padding-bottom: 25px;
+
+  .Hero__title {
+    font-size: 36px;
+  }
+
   .Hero__contact {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin-bottom: 15px;
 
     a {
       margin-right: 0;
       display: flex;
       align-items: center;
-      margin-bottom: 15px;
+      margin-bottom: 10px;
+      font-size: 16px;
+
+      .Hero__link-content {
+        font-size: 16px;
+        margin-left: 12px;
+      }
     }
   }
 
@@ -60,5 +95,10 @@
     display: block;
     margin-left: 25px;
     font-size: 18px;
+  }
+
+  .Hero__subtitle {
+    font-size: 22px;
+    margin-bottom: 15px;
   }
 }

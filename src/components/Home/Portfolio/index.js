@@ -20,7 +20,7 @@ const Portfolio = ({ expanded }) => {
         <MicroserviceCDKProject expanded={ expanded } />
         <VoteCompass expanded={ expanded } />
         <Idap expanded={ expanded } />
-        <DegreeHub expanded={ expanded }/>
+        {/* <DegreeHub expanded={ expanded }/> */}
         <Polimeter expanded={ expanded } />
         <Echoes expanded={ expanded } />
       </div>

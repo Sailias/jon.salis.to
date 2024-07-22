@@ -12,7 +12,7 @@ const MicroserviceCDKProject = ({ expanded }) => {
 
   return (
     <div className="MicroserviceCDKProject PortfolioItem" ref={ rootRef }>
-      <div className="PortfolioItem__image-holder">
+      { !expanded && <div className="PortfolioItem__image-holder">
         <Player
           lottieRef={(instance) => {
             setLottiePlayer(instance)
@@ -37,14 +37,14 @@ const MicroserviceCDKProject = ({ expanded }) => {
           controls={ false }
           src={ animationData }
         />
-      </div>
+      </div> }
       <div className="PortfolioItem__content">
         <h4 className="PortfolioItem__content-title">
           Microservice CDK Project
         </h4>
 
         <p className="PortfolioItem__content-description">
-          An internal project for creating serverless first microservices with AWS CDK
+          A serverless microservice architecture orchestrated with AWS CDK
         </p>
 
         <div className="PortfolioItem__content-stack tags">

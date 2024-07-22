@@ -71,13 +71,15 @@
 
 .Portfolio.expanded {
   .PortfolioItem {
-    @include desktop {
-      margin-bottom: 35px;
+    margin-bottom: 20px;
 
-      &:last-child {
-        margin-bottom: 0;
-      }
+    &:last-child {
+      margin-bottom: 0;
     }
+  }
+
+  .PortfolioItem__content {
+    padding-top: 0;
   }
 
   .PortfolioItem__image-holder {
@@ -93,6 +95,6 @@
   }
 
   .PortfolioItem__content-features-title {
-    margin-top: 25px;
+    margin-top: 20px;
   }
 }

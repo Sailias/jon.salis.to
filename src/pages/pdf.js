@@ -9,7 +9,7 @@ import WorkHistory from 'src/components/Home/WorkHistory'
 import Portfolio from 'src/components/Home/Portfolio'
 
 const IndexPage = () => (
-  <Layout>
+  <Layout expanded>
     <Seo title="Home" />
     <Hero expanded />
     <Portfolio expanded />

@@ -12,7 +12,7 @@ const VoteCompass = ({ expanded }) => {
 
   return (
     <div className="VoteCompass PortfolioItem" ref={ rootRef }>
-      <div className="PortfolioItem__image-holder">
+      { !expanded && <div className="PortfolioItem__image-holder">
         <Player
           lottieRef={(instance) => {
             setLottiePlayer(instance)
@@ -37,7 +37,7 @@ const VoteCompass = ({ expanded }) => {
           controls={ false }
           src={ animationData }
         />
-      </div>
+      </div> }
       <div className="PortfolioItem__content">
         <h4 className="PortfolioItem__content-title">
           <a href="https://votecompass.cbc.ca" target="_blank">

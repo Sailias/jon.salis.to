@@ -17,7 +17,7 @@ import { fab } from '@fortawesome/free-brands-svg-icons'
 library.add(fas)
 library.add(fab)
 
-const Layout = ({ children }) => {
+const Layout = ({ expanded, children }) => {
   const data = useStaticQuery(graphql`
     query SiteTitleQuery {
       site {
@@ -35,7 +35,7 @@ const Layout = ({ children }) => {
         <main>
           { children }
         </main>
-        <footer>
+        { !expanded && <footer>
           <nav className="navbar is-mobile is-light">
             <div className="container">
               <div className="navbar-brand">
@@ -52,7 +52,7 @@ const Layout = ({ children }) => {
               </div>
             </div>
           </nav>
-        </footer>
+        </footer> }
       </div>
     </>
   )

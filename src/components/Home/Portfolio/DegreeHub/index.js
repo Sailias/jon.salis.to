@@ -12,7 +12,7 @@ const DegreeHub = ({ expanded }) => {
 
   return (
     <div className="DegreeHub PortfolioItem" ref={ rootRef }>
-      <div className="PortfolioItem__image-holder">
+      { !expanded && <div className="PortfolioItem__image-holder">
         <Player
           lottieRef={(instance) => {
             setLottiePlayer(instance)
@@ -37,7 +37,7 @@ const DegreeHub = ({ expanded }) => {
           controls={ false }
           src={ animationData }
         />
-      </div>
+      </div> }
       <div className="PortfolioItem__content">
         <h4 className="PortfolioItem__content-title">
           <a href="https://degreehub.macleans.ca" target="_blank">
