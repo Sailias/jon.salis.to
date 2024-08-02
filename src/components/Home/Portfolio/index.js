@@ -13,7 +13,7 @@ const Portfolio = ({ expanded }) => {
   return (
     <section className={ `Portfolio CommonSection ${ expanded ? "expanded" : "" }` }>
       <h3 className="CommonSection__title">
-        portfolio
+        projects
       </h3>
 
       <div className="PortfolioItems">

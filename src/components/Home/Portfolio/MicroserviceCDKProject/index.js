@@ -44,7 +44,10 @@ const MicroserviceCDKProject = ({ expanded }) => {
         </h4>
 
         <p className="PortfolioItem__content-description">
-          A serverless microservice architecture orchestrated with AWS CDK
+          Pioneered an in house serverless, event driven microservice framework written in Python that empowers DevOps via Infrastructure as Code with CDK.
+        </p>
+        <p className="PortfolioItem__content-description">
+          With a focus on Developer Experience, internal adoption of the framework was successful within 6 months which resulted in the creation of a dozen microservices and the commencement of decomposing the legacy Rails monoliths within 1 year. 
         </p>
 
         <div className="PortfolioItem__content-stack tags">

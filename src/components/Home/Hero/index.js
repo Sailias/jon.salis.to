@@ -45,37 +45,41 @@ const Hero = ({ expanded }) => {
             }
           </div>
           <h3 className="CommonSection__title">
-            summary
+            about me
           </h3>
+          <p>
+            I am Jonathan Salis, a dedicated technology leader with nearly two decades of diverse industry experience. 
+            My career has been marked by key roles where I've demonstrated my expertise in developing scalable applications, 
+            pioneering innovative frameworks, and leading high-performing teams. 
+            Here are some of my significant roles:
+          </p>
           <h2 className="Hero__subtitle">
-            Chief Technology Officer
-            <ul>
-              <li>10 years leading multiple companies</li>
-              <li>Talent acquisition within Technology department</li>
-              <li>Managed development teams while working with Product</li>
-            </ul>
+            Sr. Full Stack Development Team Lead <small>at BusPatrol</small>
           </h2>
+          <p>
+            Led the development of a cutting-edge, serverless microservice framework, driving efficiency and scalability in the organization's operations.
+          </p>
+          
           <h2 className="Hero__subtitle">
-            Full-stack developer
-            <ul>
-              <li>Rails: { currentYear - 2008 } years - Rails developer since 2008 (Rails 2.1.0).</li>
-              <li>Elixir: { currentYear - 2017 } years - Multiple production applications focusing on scalability and LiveView componentization.</li>
-              <li>Python: { currentYear - 2019 } years - AWS Lambda, Internal microservice framework, docker builds/deployments via pantsbuild</li>
-              <li>React: { currentYear - 2015 } years - Adopted React almost a decade ago after Backbone and Angular.</li>
-            </ul>
+            Chief Technology Officer <small>at Vox Pop Labs Inc.</small>
           </h2>
+          <p>
+            Spearheaded the creation of highly performant and scalable Elixir applications, supporting millions of users and enhancing the company's technical capabilities.
+          </p>
+
           <h2 className="Hero__subtitle">
-            Team Lead
-            <ul>
-              <li>Lead back-end, front-end, platform engineering, and enablement teams</li>
-            </ul>
+            Instructor <small>at Lighthouse Labs</small>
           </h2>
+          <p>
+            Passionately taught web fundamentals, mentoring and guiding aspiring web developers to achieve their career goals.
+          </p>
+
           <h2 className="Hero__subtitle">
-            Programming Instructor
-            <ul>
-              <li>Lecturer at a Toronto based programming bootcamp</li>
-            </ul>
+            Chief Technology Officer <small>at Functional Imperative</small>
           </h2>
+          <p>
+            Founded and led a team of dedicated professionals, delivering robust and innovative solutions for various clients.
+          </p>
         </div>
       </div>
     </section>

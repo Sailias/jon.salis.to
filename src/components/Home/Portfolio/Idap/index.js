@@ -44,7 +44,12 @@ const Idap = ({expanded}) => {
         </h4>
 
         <p className="PortfolioItem__content-description">
-          High performant back-end that powers multiple products, serving millions of users all over the world 
+          Creation of a highly performant, scalable Elixir application capable of supporting millions of users a month.
+          White label application that focused on questionnaires that analyzed user responses and provided insightful custom result pages.
+        </p>
+
+        <p className="PortfolioItem__content-description">
+          Custom Elixir to R processing platform which allowed internal Data Scientists to upload R scripts and update result page calculations in real time. 
         </p>
 
         <div className="PortfolioItem__content-stack tags">
