@@ -57,7 +57,8 @@ const Hero = ({ expanded }) => {
             Senior Full Stack Development Team Lead <small>at BusPatrol</small>
           </h2>
           <p>
-            Led the development of a cutting-edge, serverless microservice framework, driving efficiency and scalability in the organization's operations.
+            Managed a team of 10 developers, architected and developed a serverless microservice framework written in Python, reduced developer lead time, 
+            enhanced scalability, and reduced operating costs across the entire organization.
           </p>
           
           <h2 className="Hero__subtitle">
