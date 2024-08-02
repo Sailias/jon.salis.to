@@ -54,7 +54,7 @@ const Hero = ({ expanded }) => {
             Here are some of my significant roles:
           </p>
           <h2 className="Hero__subtitle">
-            Sr. Full Stack Development Team Lead <small>at BusPatrol</small>
+            Senior Full Stack Development Team Lead <small>at BusPatrol</small>
           </h2>
           <p>
             Led the development of a cutting-edge, serverless microservice framework, driving efficiency and scalability in the organization's operations.
