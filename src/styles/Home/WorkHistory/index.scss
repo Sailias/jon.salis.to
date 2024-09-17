@@ -4,7 +4,7 @@
 
 .WorkHistory__item {
   &:not(:last-child) {
-    margin-bottom: 30px;
+    margin-bottom: 50px;
   }
 }
 
@@ -23,7 +23,30 @@
   }
 }
 
+// .WorkHistory__title {
+//   @include desktop {
+//     font-size: 24px;
+//   }
+
+//   @include touch {
+//     font-size: 18px;
+//   }
+// }
+
+.WorkHistory__link-content {
+  font-family: Poppins;
+  margin-left: 20px;
+  font-size: 18px;
+}
+
+.WorkHistory__duration {
+  margin-left: 20px;
+}
+
 .WorkHistory__title {
+  font-weight: bold;
+  margin-top: 15px;
+
   @include desktop {
     font-size: 24px;
   }
@@ -33,8 +56,21 @@
   }
 }
 
-.WorkHistory__link-content {
-  font-family: Poppins;
-  margin-left: 20px;
-  font-size: 18px;
+.WorkHistory__notable-projects-title {
+
+  @include desktop {
+    font-size: 20px;
+    margin-top: 20px;
+  }
+
+  @include touch {
+    font-size: 18px;
+    margin-top: 20px;
+  }
+}
+
+.WorkHistory.expanded {
+  .WorkHistory__notable-projects {
+    padding: 0 20px;
+  } 
 }

@@ -6,7 +6,7 @@
 
   @include desktop {
     &:not(:last-child) {
-      margin-bottom: 100px;
+      margin-bottom: 25px;
     }
   }
 
@@ -21,8 +21,9 @@
 
 .PortfolioItem__image-holder {
   @include desktop {
-    width: 300px;
-    margin-right: 100px;
+    margin-top: 20px;
+    width: 150px;
+    margin-right: 50px;
     flex-shrink: 0;
     display: block;
   }
@@ -42,7 +43,7 @@
 
 .PortfolioItem__content-title {
   font-family: NotoSerif;
-  font-size: 24px;
+  font-size: 20px;
   font-weight: bold;
 
   @include touch {
@@ -57,7 +58,6 @@
 
 .PortfolioItem__content-description {
   font-size: 18px;
-  margin-top: 5px;
 }
 
 .PortfolioItem__content-stack {
@@ -66,7 +66,7 @@
 
 .PortfolioItem__content-features-title {
   font-weight: bold;
-  margin-top: 50px;
+  margin-top: 20px;
 }
 
 .Portfolio.expanded {
@@ -88,13 +88,13 @@
     }
   }
 
-  .PortfolioItem__link-content {
-    font-family: Poppins;
-    margin-left: 20px;
-    font-size: 18px;
-  }
-
   .PortfolioItem__content-features-title {
     margin-top: 20px;
   }
+}
+
+.PortfolioItem__link-content {
+  margin-left: 20px;
+  font-size: 18px;
+  display: inline-block;
 }

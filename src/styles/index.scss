@@ -29,3 +29,21 @@ ul {
     margin-bottom: 5px;
   }
 }
+
+.Shared__horizontal-list {
+  list-style-type: disc;
+  display: flex;
+
+  li {
+    margin-left: 20px;
+
+    &:first-child {
+      list-style: none;
+      margin-left: 0;
+    }
+  }
+
+  @include mobile {
+    display: none;
+  }
+}

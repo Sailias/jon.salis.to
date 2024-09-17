@@ -12,7 +12,7 @@ const IndexPage = () => (
   <Layout expanded>
     <Seo title="Home" />
     <Hero expanded />
-    <Portfolio expanded />
+    {/* <Portfolio expanded /> */}
     <WorkHistory expanded />
   </Layout>
 )

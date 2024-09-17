@@ -75,7 +75,8 @@ const MicroserviceCDKProject = ({ expanded }) => {
           <li>Independently deployable microservices orchestrated with CDK</li>
           <li>Fine grained CDK testing via aws_cdk.assertions</li>
           <li>Minimal deployable bundle via Pantsbuild.org</li>
-          <li></li>
+          <li>Service to Service communication via gRPC</li>
+          <li>Client to Service communication with GraphQL via AWS AppSync</li>
         </ul>
       </div>
     </div>
