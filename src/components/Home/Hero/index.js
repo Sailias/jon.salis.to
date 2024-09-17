@@ -51,10 +51,9 @@ const Hero = ({ expanded }) => {
             about me
           </h3>
           <p>
-            I am Jonathan Salis, a dedicated technology leader with nearly two decades of diverse industry experience. 
+            I am a dedicated technology leader with nearly two decades of diverse industry experience. 
             My career has been marked by key roles where I've demonstrated my expertise in developing scalable applications, 
-            pioneering innovative frameworks, and leading high-performing teams. 
-            Here are some of my significant roles:
+            pioneering innovative frameworks, and leading high-performing teams.
           </p>
         </div>
       </div>

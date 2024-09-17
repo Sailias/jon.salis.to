@@ -21,7 +21,7 @@ const VoxPop = ({ expanded }) => {
                 <small className="WorkHistory__duration">2016 - 2022</small>
             </h4>
             <h5 className="WorkHistory__title">
-                Chief Technology Officer / Technical Lead
+                Chief Technology Officer / Technology Lead
             </h5>
             <p>
                 Spearheaded the creation of highly performant and scalable Elixir applications, supporting millions of users and enhancing the company's technical capabilities.

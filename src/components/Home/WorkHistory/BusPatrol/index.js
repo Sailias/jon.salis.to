@@ -1,6 +1,7 @@
 // NPM
 import React from 'react'
 import MicroserviceCDKProject from '../../Portfolio/MicroserviceCDKProject'
+import VideoBroker from '../../Portfolio/VideoBroker'
 
 const BusPatrol = ({ expanded }) => {
     return (
@@ -27,6 +28,7 @@ const BusPatrol = ({ expanded }) => {
             </p>
             <div className="WorkHistory__notable-projects">
                 <MicroserviceCDKProject expanded={ expanded } />
+                <VideoBroker expanded={ expanded } />
             </div>
         </div>
     )
