@@ -40,13 +40,13 @@ const VoteCompass = ({ expanded }) => {
       </div> }
       <div className="PortfolioItem__content">
         <h4 className="PortfolioItem__content-title">
-          <a href="https://votecompass.cbc.ca" target="_blank">
+          <a href="https://www.voxpoplabs.com/votecompass" target="_blank">
             Vote Compass
           </a>
           {
             expanded && 
               <small className="PortfolioItem__link-content">
-                { `https://votecompass.cbc.ca` }
+                { `https://www.voxpoplabs.com/votecompass` }
               </small>
           }
         </h4>
