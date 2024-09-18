@@ -7,7 +7,7 @@ const BusPatrol = ({ expanded }) => {
     return (
         <div className="WorkHistory__item">
             <h4 className="WorkHistory__company">
-                <a href="https://www.voxpoplabs.com" target="_blank">
+                <a href="https://buspatrol.com" target="_blank">
                     Bus Patrol Inc
                 </a>
                 {
