@@ -19,7 +19,7 @@ const BusPatrol = ({ expanded }) => {
                 <small className="WorkHistory__duration">2022 - present</small>
             </h4>
             <h5 className="WorkHistory__title">
-                Sr. Full Stack Development Technical Lead
+                Director, Enterprise Architecture
             </h5>
             <p>
                 Managed a team of 10 developers, architected and developed a serverless microservice framework written in Python, reduced developer lead time, 
