@@ -11,7 +11,7 @@ const Hero = ({ expanded }) => {
             Jon Salis <small>Toronto, Canada</small>
           </h1>
           <ul className="Shared__horizontal-list">
-            <li>Technical Team Lead</li>
+            <li>Director, Enterprise Architecture</li>
             <li>Full Stack Developer</li>
             <li>Chief Technology Officer</li>
           </ul>
